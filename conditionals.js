@@ -24,8 +24,8 @@ if (number > 10) {
 
 // 2. Change the number variable to something larger than 10, run your code and
 // make sure it works.
-let number = 13;
-if (number > 10) {
+let number1 = 13;
+if (number1 > 10) {
     console.log("It is bigger than 10!")
 } else { 
     console.log(false)
@@ -43,13 +43,14 @@ let color = "blue";
 // 2. Create an if statement, if the color is "blue", then log "The sky is blue." using console.log
 if ( color == "blue" ) {
     console.log("The sky is blue.")
+}
 
 // 3. Create an else if statement, and if the color is "red" then log "The flower is red."
-let color = "red";
+let color1 = "red";
 
-if ( color == "red" ) {
+if ( color1 == "red" ) {
     console.log("The flower is red.")
-  } else if ( color == "blue") {
+  } else if ( color1 == "blue") {
     console.log("The flower is blue.")
   } else {
     console.log("The flower is yellow polka dots!")
@@ -57,33 +58,33 @@ if ( color == "red" ) {
 
 // 4. create another else if statement where if the color is "green" then log "The Leaf is green."
 
-    let color = "green";
+  let color2 = "green";
 
-if ( color == "red" ) {
+if ( color2 == "red" ) {
     console.log("The flower is red.")
-  } else if ( color == "green") {
+  } else if ( color2 == "green") {
     console.log("The Leaf is green.")
   } else {
     console.log("The flower is yellow polka dots!")
   }
 // 5. Finally, create an else statement and log "It is a different color".
 
-let color = "blue";
+let color3 = "blue";
 
-if ( color == "red" ) {
+if ( color3 == "red" ) {
     console.log("The flower is red.")
-  } else if ( color == "green") {
+  } else if ( color3 == "green") {
     console.log("The Leaf is green.")
   } else {
     console.log("It is a different color, possibly yellow polka dots!")
   }
 // 6. Test your code! Change the value of the color variable to different colors and run your code.
 // The correct message should log to the console.
-let color = "yellow";
+let color4 = "yellow";
 
-if ( color == "red" ) {
+if ( color4 == "red" ) {
     console.log("The flower is red.")
-  } else if ( color == "green") {
+  } else if ( color4 == "green") {
     console.log("The Leaf is green.")
   } else {
     console.log("It is a different color, possibly yellow polka dots!")
@@ -107,28 +108,28 @@ Hint Two: You can either do this with nested if statements, or you can do it wit
 a chain of if else statements, some of those just might need multible conditions (like: if (a && b) )
 */
 
-// // let number = 12;
+// let number = 12;
 // Your code here.
-let number = "15";
+let number2 = "15";
 
-if ( number > 10 && number < 20 ) {
+if ( number2 > 10 && number2 < 20 ) {
   console.log("Between 10 and 20!")
 }
 
-  let number = 22;
+  let number3 = 22;
 
-if ( number >= 20 ) {
+if ( number3 >= 20 ) {
   console.log("20 or greater!")
 }
 
-let number = 16;
+let number4 = 16;
 
-if ( number = 16 ) {
+if ( number4 = 16 ) {
   console.log("16!")
 }
 
-let number = 9;
+let number5 = 9;
 
-if ( number <= 10 ) {
+if ( number5 <= 10 ) {
   console.log("10 or less!")
 }
